@@ -1,0 +1,120 @@
+a.title {
+font: 1.8em Georgia, Times, serif;
+text-align: center;
+letter-spacing: 1px;
+border-color: #739E39;
+border-bottom-style: solid;
+}
+
+div {
+border-width: 1px;
+border-color: #739E39;
+border-style: solid;
+}
+#placeholder0 {
+position: absolute;
+top: 1%;
+left: 55%;
+width: 398px;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:10px;
+}
+#placeholder1 {
+position: absolute;
+top: 25%;
+left: 55%;
+width: 420px;
+}
+#placeholder2 {
+position: absolute;
+top: 60%;
+left: 55%;
+margin:0 auto;
+width: 420px;
+}
+h3 {
+background:#8BB381;
+text-align: center;
+margin:0;
+font: bold 1em/1.8em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+div.odd {
+background:#8BB381;
+left:0;
+top:0;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+div.even {
+left:0;
+top:0;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+div.col1 {
+float:left;
+width:77%;
+border-left-style: none;
+border-bottom-style: none;
+border-right-style: none;
+border-top-style: solid;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+margin: 0px;
+}
+div.col2 {
+float:right;
+width:23%;
+border-left-style: none;
+border-bottom-style: none;
+border-right-style: none;
+border-top-style: solid;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+margin: 0px;
+}
+body {
+margin:0;
+padding:0;
+height:100%;
+background:#DEE79C;
+}
+div.leftdiv {
+float:left;
+height:100%;
+width:50%;
+background:#EFEBD6;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+} 
+div.provenancetitle {
+position: absolute;
+top: 1%;
+left:5%;
+width: 40%;
+padding-left:10px;
+}
+
+#placeholder3 {
+position: absolute;
+top: 20%;
+left: 5%;
+margin:0 auto;
+width:40%;
+height:75%;
+overflow:auto;
+}
+
+div.provenancenode {
+float:left;
+width:100%;
+border-left-style: none;
+border-bottom-style: none;
+border-right-style: none;
+border-top-style: solid;
+font: 0.8em/1.5em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+margin: 0px;
+top: 30%;
+left: 5%;
+}
+img.gif {
+float:right;
+overflow:auto;
+visibility:hidden;
+}

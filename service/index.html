@@ -1,0 +1,45 @@
+<html>
+<head>
+<script type="text/javascript" src="autosuggest.js"></script>
+<script type="text/javascript" src="helpers.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+<body onload="init(); fetchprovenance();">
+<div id='placeholder0' class="placeholder0">
+<a class="title">The autosuggest service</a><br/><br/>
+<input type="radio" name="radioa" id="radio1" checked="true">backlink ranked</input>
+<input type="radio" name="radioa" id="radio2">alphabetically ranked</input>
+<br/><br/>
+<input id="tb" title="" type="text" style="overflow: auto; height: 20px; width:95%; opacity: 0.999999;" autocomplete="off"><img src="ajax-loader.gif" class="gif" id="autosuggestgif"/></input>
+</div>
+<div class="leftdiv" id="leftdiv">
+<div class="provenancetitle">
+<a class="title">The BTC triplestores (provenance)</a><br/>
+<p>Pick a triplestore from the BTC dataset to limit the scope of the suggestions to the URIs existing within that triplestore, or leave as-is to get suggestions from the entire BTC dataset</p>
+</div>
+<div id='placeholder3' class="placeholder3">
+<h3>The BTC grouped by triplestores, order by no. of backlinked URIs in each one<img src="ajax-loader.gif" class="gif" id="provenancegif"/></h3>
+<div id="provenancenode0" class='provenancenode'><input type="radio" name="radionode" id="radionode0" checked="true" value="0" style="float:left">All BTC triplestores</input><span id="uris0" style="float:right"></span></div>
+</div>
+</div>
+<div id='placeholder1' class="placeholder1">
+  <h3>URI info<img src="ajax-loader.gif" class="gif" id="registrygif1"/></h3>
+  <div class='odd'><i>uri</i></div>
+<div id="uri" class='even'>-</div>
+  <div class='odd'><i>label</i></div>
+  <div id="label" class='even'>-</div>
+  <div class='odd'><i>provenance triplestore</i></div>
+  <div id="provenance" class='even'>-  </div>
+<div class='odd'><i>no. of backlinks</i></div>
+  <div id="backlinksum" class='even'>-  </div>
+  </div>
+
+<div id='placeholder2' class="placeholder2">
+ <h3>Backlinks info<img src="ajax-loader.gif" class="gif" id="registrygif2"/></h3>
+<div id="cola0" class='col1' style="background:#8BB381;"><i>remote triplestore</i></div> 
+<div id="colb0" class='col2' style="background:#8BB381;"><i>count</i></div> 
+</div>
+</body></html>
+
+
+<!-- select node, count(node) from label_index group by node order by count(node) desc; -->

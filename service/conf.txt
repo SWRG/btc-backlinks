@@ -1,0 +1,2 @@
+connectionstring::{"host":"127.0.0.1","port":9306,"user":"lod","passwd":"tbltheemou","db":"btc","charset":"utf8"}
+connectionstring2::{"host":"127.0.0.1","port":3306,"user":"lod","passwd":"tbltheemou","db":"btc","charset":"utf8"}
